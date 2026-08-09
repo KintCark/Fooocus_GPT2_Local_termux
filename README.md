@@ -10,6 +10,11 @@ pkg update -y && pkg upgrade && pkg install wget curl proot tar -y && wget https
 apt install build-essential python3 python3-dev python3-pip python3-venv git curl ffmpeg libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y
 
 3>
+export ANDROID_DATA=anything
+export FORCE_CPU=1
+
+
+4>
 python3 (script name).py "a cute cat portrait"
 
 
