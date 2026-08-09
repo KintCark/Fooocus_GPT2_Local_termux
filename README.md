@@ -13,8 +13,10 @@ apt install build-essential python3 python3-dev python3-pip python3-venv git cur
 export ANDROID_DATA=anything
 export FORCE_CPU=1
 
-
 4>
+pip install diffusers transformers accelerate
+
+5>
 python3 (script name).py "a cute cat portrait"
 
 
