@@ -7,7 +7,11 @@ FIRST INSTALL UBUNTU
 pkg update -y && pkg upgrade && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22.sh -O ubuntu22.sh && chmod +x ubuntu22.sh && bash ubuntu22.sh
 
 2>
-apt install update upgrade build-essential python3 python3-dev python3-pip python3-venv git curl ffmpeg libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y
+apt update
+
+apt upgrade 
+
+apt install build-essential python3 python3-dev python3-pip python3-venv git curl ffmpeg libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y
 
 3>
 export ANDROID_DATA=anything
